@@ -1,6 +1,8 @@
 # Projeto API RestFul com Spring
 
-API CRUD de Products utilizando:
+### Projeto feito para o estudo inicial no Spring Framework.
+
+#### API CRUD de Products utilizando:
 
 Spring Boot 3 e Java 17.
 
@@ -362,7 +364,7 @@ ele não exista emitimos uma mensagem (status e body) e caso ele exista,
 pegamos esse objeto com o ID e deletamos direto na base de dados e
 retornamos uma mensagem (status e body).
 
-#### Implementação de HATEOAS e criação de hipermídias
+## Implementação de HATEOAS e criação de hipermídias
 
 Vamos implementar o Hateoas para que terminemos de seguir os níveis de
 maturidade de Richardson para que nossa API seja considerado Restful.
